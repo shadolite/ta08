@@ -18,6 +18,10 @@ void Circle :: display()
  ***********************************************************/
 void Circle :: promptForCircle()
 {
+   promptForPoint();
+   cout << "Enter radius: ";
+   cin >> radius;
+   
 }
 
 /***********************************************************
